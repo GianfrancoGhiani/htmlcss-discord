@@ -20,9 +20,6 @@ quite-black: #23272a
 off-white: #f6f6f6
 */
 
-.debug{
-    background-color: #255ee9;
-}
 .size-pos{
     max-width: 1170px;
     margin: 0 auto;
@@ -37,7 +34,7 @@ a{
 .button{
     padding: 15px 17px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 17px;
 }
 .white{
     background-color: white;
@@ -56,16 +53,23 @@ a{
 .dark-black{
     background-color: #23272a;
 }
+.bg-grey{
+    background-color: #f6f6f6;
+}
+.lightpurple{
+    background-color: #8ea1e1;
+}
+
 /* specific selector */
 .top-bar{
     background-color: #255ee9;
 }
 header nav ul {
-    width: 45%;
+    width: 35%;
     min-width: 450px;
 }
 .btn-top-bar{
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px 12px;
 }
 .bg-jumbo{
@@ -76,13 +80,46 @@ header nav ul {
 
 }
 .jumbo{
-    max-width: 600px;
+    max-width: 680px;
     margin: 0 auto;
     text-align: center;
 }
 h1{
-    margin: 50px 0 30px;
+    margin: 60px 0 30px;
+    font-size: 47px;
+}
+p{
+    font-size: 18px;
 }
 .jmb-bar{
     margin: 35px 10px;
+}
+.pg-img{
+    width: 50%;
+    min-width: 450px;
+}
+.pg-txt{
+    width: 330px;
+    color: #23272a;
+}
+h2{
+    font-size: 42px;
+}
+h3{
+    font-size: 32px;
+    margin: 50px;
+}
+section.size-pos{
+    padding: 70px 0;
+}
+#last-img{
+    width: 100%;
+}
+section.last{
+    text-align: center;
+    width: 900px;
+    padding: 70px 0 0 0;
+}
+.last-btn{
+    font-size: 20px;
 }
