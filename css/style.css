@@ -74,6 +74,10 @@ a{
 .rotate{
     transform: rotate(180deg);
 }
+.button:hover{
+    box-shadow: 0 10px 24px -4px rgba(0,0,0,0.32);
+}
+
 
 /* specific selector */
 .top-bar{
