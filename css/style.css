@@ -15,6 +15,7 @@ purple: #7289da
 not-black: #2c2f33
 quite-black: #23272a
 off-white: #f6f6f6
+grey: #36393f
 */
 
 .size-pos{
@@ -36,6 +37,9 @@ a{
 .white{
     background-color: white;
 }
+.white:hover{
+    color: #7289da;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -50,10 +54,16 @@ a{
 .dark-black{
     background-color: #23272a;
 }
+.dark-black:hover{
+    background-color: #36393f;
+}
 .bg-grey{
     background-color: #f6f6f6;
 }
 .lightpurple{
+    background-color: #8f9bc4;
+}
+.lightpurple:hover{
     background-color: #8ea1e1;
 }
 .flex-col{
