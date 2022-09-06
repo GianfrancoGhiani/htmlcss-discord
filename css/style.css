@@ -61,7 +61,7 @@ a{
     background-color: #f6f6f6;
 }
 .lightpurple{
-    background-color: #8f9bc4;
+    background-color: #7c90d1;
 }
 .lightpurple:hover{
     background-color: #8ea1e1;
@@ -218,4 +218,40 @@ h5, #bot-title{
 }
 .bot-bar{
     padding: 25px 0;
+}
+
+/* page 1 */
+.align{
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+}
+.align h1{
+    margin-top: 25px;
+}
+.bg-jumbop1{
+    height: 450px;
+    background-image: url(../pages/img/jumbopg1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #23272a;
+}
+.jumboimg1{
+    width: 50%;
+    max-height: 300px;
+    text-align: right;
+}
+.col{
+    width: 50%;
+}
+.card{
+    background-color: grey; /*#f6f6f6;*/
+    height: 400px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 15px;
+}
+.card h3{
+    padding: 20px;
+    margin: 0 auto;
 }
