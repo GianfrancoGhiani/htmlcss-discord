@@ -3,9 +3,12 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
+    /* font-family: Helvetica, Arial, sans-serif; */
 }
+body{
+    font-family: Helvetica, Arial, sans-serif;
 
+}
 /* repetitive stuff and color palette:
 jumbo: rgb(49, 97, 224)
 lightpurple: #8ea1e1
@@ -57,6 +60,11 @@ a{
 .flex-col{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.flex-icon{
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -140,6 +148,9 @@ section.last{
 footer{
     background-color: #23272a;
 }
+#bot-title{
+    font-size: 30px;
+}
 h5, #bot-title{
     color: #7289da;
     margin: 0;
@@ -149,6 +160,7 @@ h5, #bot-title{
     padding: 40px 0;
     align-items: flex-start;
     color: #f6f6f6;
+    border-bottom: 1px solid #363f56;
 }
 .list{
     width: calc(100% / 6);
@@ -156,11 +168,33 @@ h5, #bot-title{
 .list-first{
     width: calc((100% / 6) * 2 );
 }
-.icons{
-    height: 45px;
-    color: #f6f6f6;
-}
 .ita{
     justify-content: flex-start;
     height: 25px;
+}
+.list li, .list-first li{
+    margin: 15px 0;
+}
+
+.flex-icon li{
+    margin: 7px 10px;
+}
+.twitter::before{
+    font-family: "Font Awesome 5 Brands";
+    content: "\f099";
+}
+.instagram::before{
+    font-family: "Font Awesome 5 Brands";
+    content: "\f16d";
+}
+.facebook::before{
+    font-family: "Font Awesome 5 Brands";
+    content: "\f09a";
+}
+.youtube::before{
+    font-family: "Font Awesome 5 Brands";
+    content: "\f167";
+}
+.bot-bar{
+    padding: 25px 0;
 }

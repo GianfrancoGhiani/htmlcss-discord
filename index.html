@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Discord</title>
 </head>
@@ -82,16 +82,18 @@
         <!-- footer list + bot-bar -->
         <section class="flex foot-list size-pos">
             <ul class="list-first">
-                <li><h3 id="bot-title">Il tuo posto per parlare</h3></li>
+                <li><h3 id="bot-title">Il tuo posto per <br> parlare</h3></li>
                 <li class="flex ita">
                     <img src="img/ita.png" alt="italia" class="ita">
                     Italiano	&#709;
                 </li>
                 <li>
-                    <i class="fa-solid fa-user"></i>
-                    Icons
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-solid fa-user"></i>
+                    <ul  class="flex-icon">
+                        <li class="twitter"></li>
+                        <li class="instagram"></li>
+                        <li class="facebook"></li>
+                        <li class="youtube"></li>
+                    </ul>
                 </li>
             </ul>
             <ul class="list">
@@ -132,9 +134,10 @@
                 <li>Assistenza</li>
             </ul>
         </section>
-        <section class="bot-bar">
-            
-        </section>
+        <div class="bot-bar size-pos flex">
+            <a href="#"><img src="img/logo.svg" alt="Discord Logo"></a>
+            <a href="#" class="button lightpurple btn-top-bar wt-txt">Registrati</a>            
+        </div>
     </footer>
 </body>
 </html>
