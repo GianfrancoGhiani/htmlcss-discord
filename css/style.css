@@ -243,15 +243,35 @@ h5, #bot-title{
 }
 .col{
     width: 50%;
+    align-items: center;
 }
 .card{
-    background-color: grey; /*#f6f6f6;*/
-    height: 400px;
+    background-color: #f6f6f6;
+    height: 600px;
     text-align: center;
     margin: 15px;
     border-radius: 15px;
+    overflow: hidden;
 }
 .card h3{
-    padding: 20px;
+    padding: 50px 0 30px;
     margin: 0 auto;
+}
+.card a{
+    marg
+}
+.card-img{
+    margin: 80px auto;
+    height: 70%;
+}
+.diff{
+    height: 300px;
+    text-align: left;
+    padding: 0 45px;
+}
+.card p{
+    margin: 0 0 40px;
+}
+.cards-main{
+    margin: 100px 0;
 }
